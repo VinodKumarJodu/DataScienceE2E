@@ -2,6 +2,7 @@ from src.kafka_consumer.json_consumer import consumer_using_sample_file
 
 from src.constant import SAMPLE_DIR
 import os
+
 if __name__=='__main__':
 
     topics = os.listdir(SAMPLE_DIR)
