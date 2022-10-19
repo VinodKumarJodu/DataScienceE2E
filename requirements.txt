@@ -3,5 +3,6 @@ requests
 six
 pandas
 pymongo[srv]==4.1.1
+jsonschema
 dnspython
 -e .
